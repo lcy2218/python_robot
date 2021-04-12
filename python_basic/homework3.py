@@ -31,7 +31,7 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-        """
+"""
         f.write(text)
         f.close()
 
@@ -61,6 +61,7 @@ def copyFile():
         copyFile.close()
     except Exception as result:
         print("产生了奇怪的问题")
+
 
 
 creatFile()
